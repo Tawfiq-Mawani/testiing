@@ -1,0 +1,39 @@
+body{
+    background-color: #161616;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    opacity: 0.1;
+    text-align: center;
+    padding: 1rem 2rem;
+    width: 20rem;
+    background-color: #252525;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.wrapper:hover{
+    transform: scale(1.1);
+    transition-duration: 800ms;
+    opacity: 1;
+}
+
+
+p{
+    color: rgb(157, 157, 157);
+}
+h1{
+    color: white;
+}
+
+h1,p{
+    padding: 0.5rem 0;
+}
