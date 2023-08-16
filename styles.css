@@ -37,3 +37,7 @@ h1{
 h1,p{
     padding: 0.5rem 0;
 }
+
+.light-btn:hover{
+    background-color: red;
+} 
